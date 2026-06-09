@@ -105,3 +105,72 @@ nav ul li a{
     margin: 0 auto;
     text-align: center;
 }
+
+.info h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px ;
+    color: var(--color--principal);
+}
+
+/**pagina sobre yp**/
+
+.about-container {
+max-width: 1110px;
+margin: 60px auto;
+padding: 40px 20px;
+animation: fadeIn 0.8s ease-out;
+
+}
+
+.about-header{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-image img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    border: 8px solid white; 
+}
+
+.porfile-text{
+    flex: 1;
+    min-width: 300px;
+}
+
+.porfile-text h1{
+    font-size: 3rem;
+    color: var(--color--principal);
+    margin-bottom: 20px;
+}
+.about-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+
+}
+
+.detail-card {
+    background: var(--fondo--suave);
+    padding: 40px;
+    border-radius: 20px;
+    transition: var(--trancision);
+    border-bottom: 5px solid;
+}
+
+.detail-card:hover{
+    transform: translate(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+.detail-card h2{
+    color: var(--color--texto);
+    margin-bottom: 15px;
+}
